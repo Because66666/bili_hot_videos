@@ -1,6 +1,6 @@
 {
-  "name": "nkuwiki_blog",
-  "version": "0.0.1",
+  "name": "bili_hot_videos",
+  "version": "0.0.2",
   "type": "module",
   "scripts": {
     "dev": "astro dev",

@@ -8,7 +8,7 @@ from playwright.async_api import async_playwright
 RESPONSE_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'response')
 
 # 设置是否无头浏览器
-HEADLESS = False
+HEADLESS = True
 # 确保响应目录存在
 os.makedirs(RESPONSE_DIR, exist_ok=True)
 
