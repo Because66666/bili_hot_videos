@@ -5,7 +5,7 @@ from datetime import datetime
 
 # 文件路径
 RESPONSE_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'response')
-OUTPUT_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'content', 'posts')
+OUTPUT_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)),'src' , 'content', 'posts')
 
 # 读取txt文件
 def read_data_dict(file_path):
@@ -114,7 +114,7 @@ def generate_full_md(videos_data, max_videos=10):
     header += f"published: {published_date}\n"
     header += f"tags: [视频, 每周精选]\n"
     header += f"category: 每周必看\n"
-    header += f"draft: true\n"
+    header += f"draft: false\n"
     header += f"---\n\n"
     
     # 创建新的Markdown内容
